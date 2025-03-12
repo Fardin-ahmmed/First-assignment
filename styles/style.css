@@ -231,3 +231,44 @@
 
   background: rgba(255, 223, 0, 0.05);
 }
+.main-part4 {
+  text-align: center;
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+  padding: 20px 200px;
+  margin: 50px;
+}
+.main-part4 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 50px 60px 50px 60px;
+}
+.main-part4 .form input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.main-part4 .form button {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 15px 20px;
+  background: rgb(255, 255, 255);
+  font-size: 22px;
+}
+.main-part4 section {
+  padding: 50px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+}
