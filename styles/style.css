@@ -164,5 +164,70 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 30px 45px;
+  margin-bottom: 40px;
+}
+.main-part3 .title h2 {
+  font-weight: 800px;
+  font-size: 32px;
+  color: rgb(13, 19, 33);
+}
+.main-part3 .title p {
+  font-weight: 400px;
+  font-size: 14px;
+  color: rgb(13, 19, 33);
+  width: 700px;
+}
+.main-part3 .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48;
+  padding: 0px;
+  margin-top: 150px;
+  margin-bottom: 48px;
+}
+.main-part3 .card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0 180px 0 180px;
+  justify-content: center;
+}
+.main-part3 .card .child-card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24;
+  padding: 25px;
+  width: 400px;
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+}
+.main-part3 .card .child-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24;
+  padding: 25px;
+  width: 400px;
+  border-radius: 16px;
+
+  background: rgba(0, 76, 232, 0.05);
+}
+.main-part3 .card .child-card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24;
+  padding: 25px;
+  width: 400px;
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
 }
