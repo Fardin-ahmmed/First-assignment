@@ -1,0 +1,132 @@
+.header1 h1 {
+  color: rgb(13, 19, 33);
+
+  font-size: 28px;
+  font-weight: 800;
+
+  text-align: left;
+}
+.header1 button {
+  padding: 10px 20px;
+}
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 38px 150px;
+}
+.main .head {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 25px;
+  font-weight: 800;
+
+  width: 900px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 190px;
+}
+.main .pera {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  width: 800px;
+}
+.btn {
+  border-radius: 8px;
+  padding: 21px 24px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+}
+.frame5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  margin-top: 150px;
+}
+.frame5 h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 40px;
+  font-weight: 1000px;
+  text-align: center;
+  margin-top: 80px;
+}
+.frame5 p {
+  color: rgb(13, 19, 33);
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+
+  text-align: center;
+}
+.frame8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 96px;
+  margin-bottom: 100px;
+  padding: 48px;
+}
+.frame8 .head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 468px;
+}
+.frame8 .head h2 {
+  width: 290px;
+  margin-bottom: 16px;
+}
+.btn-all {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px;
+  font-family: Azeret Mono;
+  font-size: 20px;
+}
+.main-part {
+  border-radius: 16px;
+  margin: 150px;
+  background: rgba(13, 19, 33, 0.02);
+
+  align-items: center;
+  gap: 32;
+}
+.frame9 {
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 100px;
+}
+.frame9 .child9 h2 {
+  width: 320px;
+  margin-bottom: 16px;
+}
+.frame9 .child9 p {
+  width: 380px;
+}
+
+.overall {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
