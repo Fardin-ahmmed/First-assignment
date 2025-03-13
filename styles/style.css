@@ -53,6 +53,7 @@
   padding: 21px 24px;
   background: rgb(13, 19, 33);
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 .frame5 {
   display: flex;
@@ -239,12 +240,10 @@
 
   background-position: center;
   padding: 20px 200px;
-  margin: 50px;
-}
-.main-part4 {
-  text-align: center;
+
   color: rgb(255, 255, 255);
   margin: 50px 60px 50px 60px;
+  border-radius: 20px;
 }
 .main-part4 .form input {
   box-sizing: border-box;
